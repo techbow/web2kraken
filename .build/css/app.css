@@ -1,0 +1,37 @@
+/* line 14, /Users/ziliu/Desktop/web2/css/app */
+header {
+  background-color: #5b83aa;
+  border: 2px solid #ffc0cb;
+  border-radius: 5px;
+}
+/* line 17, /Users/ziliu/Desktop/web2/css/app */
+header#myh {
+  content: "before";
+}
+/* line 20, /Users/ziliu/Desktop/web2/css/app */
+header:after {
+  content: "<div>after</div>";
+}
+/* line 26, /Users/ziliu/Desktop/web2/css/app */
+.myContent h1 {
+  background-color: #7da5cc;
+  border: 1px solid #008000;
+  border-radius: 100px;
+}
+/* line 30, /Users/ziliu/Desktop/web2/css/app */
+.myContent p {
+  color: red;
+}
+/* line 32, /Users/ziliu/Desktop/web2/css/app */
+.myContent p span {
+  background-color: #eeee00;
+}
+/* line 36, /Users/ziliu/Desktop/web2/css/app */
+.myContent .colorDemo {
+  background-color: #dd0000;
+  color: #ffff00;
+}
+/* line 44, /Users/ziliu/Desktop/web2/css/app */
+footer {
+  background-color: #6c94bb;
+}

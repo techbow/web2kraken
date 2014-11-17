@@ -1,0 +1,21 @@
+{>"layouts/master" /}
+
+{<title}
+	My First App
+{/title}
+
+{<body}
+    <div class="myContent">
+    	<h1> 
+    		this is my first class 
+    	</h1>
+    	<p> 
+    		jfoasjdfoiajsodf oaijsdfo <span> my span </span> 
+    	</p>
+    	<div>
+    		<div class="colorDemo"> div in div </div>
+    		<input type="date" max="1979-12-31"><br>
+			<input type="text"><br>
+    	</div>
+    </div>
+{/body}
