@@ -4,9 +4,10 @@
     <meta charset="utf-8" />
     <title>{+title /}</title>
     <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/{viewName}.css" />
 </head>
 <body>
-	
+
 	<header> this is the common header </header>
 	<section class="content" id="main" >
 	    {+body /}
