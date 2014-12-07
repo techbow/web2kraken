@@ -3,6 +3,18 @@
 <head>
     <meta charset="utf-8" />
     <title>{+title /}</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
     <link rel="stylesheet" href="css/app.css" />
     <link rel="stylesheet" href="css/{viewName}.css" />
 </head>
@@ -15,5 +27,6 @@
 	<footer> this is the common footer </footer>
 	
 	<script data-main="/js/app" src="/components/requirejs/require.js"></script>
+
 </body>
 </html>

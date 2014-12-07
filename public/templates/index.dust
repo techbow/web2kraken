@@ -5,7 +5,18 @@
 {/title}
 
 {<body}
-    <a href="home"> go to home </a>
-    <a href="about"> go to about </a>
-    <br>this page is {viewName} page
+    <div class="row">
+    	<div class="col1 col-lg-3 col-xs-6">this is the 1 col</div>
+    	<div class="col2 col-lg-6 col-xs-2">this is the 2 col</div>
+    	<div class="col3 col-lg-3 col-xs-4">this is the 3 col</div>
+    </div>
+    You can use the mark tag to <mark>highlight</mark> text.
+    <p class="text-uppercase">{viewName}</p>
+
+<ol class="breadcrumb">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">Library</a></li>
+  <li class="active">Data</li>
+</ol>
+
 {/body}
